@@ -1,6 +1,6 @@
 /*!!!!!!!!!! Задача 1 */
-/* alert('задание 1');
- let a = prompt('Введите начальное a');
+alert('задание 1');
+let a = prompt('Введите начальное a');
 let b = prompt('Введите конечное b');
 
 function printChet(a, b) {
@@ -19,57 +19,57 @@ function printChet(a, b) {
         alert('Введите a меньше b');
     }
 
-} 
+}
 
-printChet(a, b) */
+printChet(a, b)
 /* Задача 2 */
-/* alert('задание 2');
+alert('задание 2');
 
 let i = 0;
 while (i < 3) {
     alert(`number ${i}!`);
     i++;
-} */
+}
 /* Задача 3 */
-/* alert('задание 3');
+alert('задание 3');
 alert('Угадай загаданные числа');
-let a = prompt('Введите число');
+let c = prompt('Введите число');
 
-for (let i = 0; a <= 10; i++) {
-    if (a != null) {
+for (let i = 0; c <= 10; i++) {
+    if (c != null) {
         alert('Попробуй еще раз');
-        a = prompt('Введите число');
+        c = prompt('Введите число');
     } else {
 
     }
 
-} */
+}
 
 /* Задача 4 */
-/* alert('задание 4');
-let a = prompt('Введите число a');
-let b = prompt('Введите число b');
+alert('задание 4');
+let d = prompt('Введите число a');
+let e = prompt('Введите число b');
 
-function min(a, b) {
-    if (a < b) {
+function min(d, e) {
+    if (d < e) {
         return true;
-    } else if (b < a) {
+    } else if (e < d) {
         return false;
     }
 }
 
-if ((min(a, b))) {
-    alert(a);
-} else if ((min(a, b)) == false) {
-    alert(b);
+if ((min(d, e))) {
+    alert(d);
+} else if ((min(d, e)) == false) {
+    alert(e);
 } else {
     alert('Одинаковые значения');
 }
- */
+
 
 
 /*!!!!!!!!! Задача 5 */
-/* alert('задание 5');
+alert('задание 5');
 function ask(question, yes, no) {
     if (confirm(question)) { yes(); }
     else { no(); }
@@ -79,16 +79,16 @@ ask(
     () => alert("Вы согласились."),
     () => alert("Вы отменили выполнение.")
 );
- */
+
 /*!!!!!!!!! Задача 6 */
-/* alert('задание 6');
-let age=prompt('Ваш возраст');
+alert('задание 6');
+let age = prompt('Ваш возраст');
 function checkAge(age) {
     return age > 18 || confirm('Родители разрешили?');
 }
-if(checkAge(age)==true){
+if (checkAge(age) == true) {
     alert("доступ открыт");
-}else{
+} else {
     alert("доступ ограничен");
 }
- */
+
